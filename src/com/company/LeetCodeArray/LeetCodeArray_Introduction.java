@@ -1,8 +1,11 @@
-package com.company;
+package com.company.LeetCodeArray;
 import java.util.Arrays;
 
-public class LeetCodeArray {
+public class LeetCodeArray_Introduction {
+
     public static void main() {
+
+        System.out.println("\nLeetCode_Array_Introduction: ");
 
         // LeetCode_array: https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
         int [] findMaxConsecutiveOnes_Array = {1,1,0,1,1,1};

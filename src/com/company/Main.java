@@ -1,10 +1,7 @@
 package com.company;
 
 
-import com.company.LeetCodeArray.LeetCodeArray_Deletion;
-import com.company.LeetCodeArray.LeetCodeArray_Insertion;
-import com.company.LeetCodeArray.LeetCodeArray_Introduction;
-import com.company.LeetCodeArray.LeetCodeArray_Search;
+import com.company.LeetCodeArray.*;
 
 public class Main {
 
@@ -25,6 +22,9 @@ public class Main {
 
         // LeetCode Array Selection - Search
         LeetCodeArray_Search.main();
+
+        // LeetCode Array Selection - In place Operation
+        LeetCodeArray_InPlaceOperation.main();
 
     }
 

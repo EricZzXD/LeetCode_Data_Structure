@@ -116,8 +116,9 @@ public class LeetCodeArray_Deletion {
                 nums[LengthCounter] = nums[j];
             }
         }
-        System.out.println("removeDuplicates: " + Arrays.toString(nums));
-        return LengthCounter + 1;
+        int Result = LengthCounter + 1;
+        System.out.println("removeDuplicates: " + Result);
+        return Result;
     }
 
 }

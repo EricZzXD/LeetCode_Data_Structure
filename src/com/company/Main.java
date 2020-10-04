@@ -4,6 +4,7 @@ package com.company;
 import com.company.LeetCodeArray.LeetCodeArray_Deletion;
 import com.company.LeetCodeArray.LeetCodeArray_Insertion;
 import com.company.LeetCodeArray.LeetCodeArray_Introduction;
+import com.company.LeetCodeArray.LeetCodeArray_Search;
 
 public class Main {
 
@@ -21,6 +22,10 @@ public class Main {
 
         // LeetCode Array Selection - Deletion
         LeetCodeArray_Deletion.main();
+
+        // LeetCode Array Selection - Search
+        LeetCodeArray_Search.main();
+
     }
 
 }

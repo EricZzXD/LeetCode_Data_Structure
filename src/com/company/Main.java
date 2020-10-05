@@ -1,13 +1,28 @@
 package com.company;
 
-
 import com.company.LeetCodeArray.*;
+import com.company.LeetCodeLinkedList.*;
+import com.company.LeetCodeStringAndArray.*;
 
 public class Main {
 
     public static void main(String[] args) {
+        // LeetCode String And Array
+        LeetCode_StringAndArray();
+
         // LeetCode Array
-        LeetCode_Array();
+//        LeetCode_Array();
+
+        // LeetCode Linked List
+//        LeetCode_linkedlist();
+    }
+
+    public static void LeetCode_StringAndArray(){
+        // LeetCodeStringAndArray Introduction
+        LeetCodeStringAndArray_Introduction.main();
+
+        // LeetCodeStringAndArray 2D Array
+        LeetCodeStringAndArray_2DArray.main();
     }
 
     public static void LeetCode_Array(){
@@ -30,4 +45,10 @@ public class Main {
         LeetCodeArray_Conclusion.main();
     }
 
+
+    public static void LeetCode_linkedlist(){
+        // Fist Chapter of LinkedList
+        LeetCodeLinkedList_SinglyLinkedList.main();
+
+    }
 }
